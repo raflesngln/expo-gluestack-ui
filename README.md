@@ -4,6 +4,19 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Get started
 
+- Create Expo Project 
+```
+      npx create-expo-app expo-gluestack-ui
+      cd expo-gluestack-ui
+      npm run android
+```
+- Install nativewind and tailwindcss
+ ```
+   npm install nativewind
+   npm install --save-dev tailwindcss@3.3.2
+ ```
+
+
 1. Install dependencies
 
    ```bash
