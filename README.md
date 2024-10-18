@@ -15,6 +15,23 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install nativewind
    npm install --save-dev tailwindcss@3.3.2
  ```
+- Create tailwindcss config
+ ```
+   npx tailwindcss init
+ ```
+- edit file tailwindcss.config.js, Add the paths to all of your component files, edit on the content remember to replace <custom directory> with the actual name of your directory e.g. below :
+ ```
+     content: [
+      "./App.{js,jsx,ts,tsx}",
+      "./app/**/*.{js,jsx,ts,tsx}",
+      "./components/**/*.{js,jsx,ts,tsx}",
+   ],
+ ```
+- Add the Babel plugin. Modify your babel.config.js
+ ```
+   presets: ["babel-preset-expo"],
+   plugins: ["nativewind/babel"],
+ ```
 
 
 1. Install dependencies

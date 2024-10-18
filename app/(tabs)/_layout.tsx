@@ -32,6 +32,24 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="jobs"
+        options={{
+          title: 'Jobs',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'document-text' : 'document-text-outline'} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="myprofiles"
+        options={{
+          title: 'MyProfiles',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'person-circle-outline' : 'person'} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
