@@ -1,6 +1,18 @@
-# Welcome to your Expo app 👋
+# React Native With Expo and gluestack-ui 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Plugins
+
+Dillinger is currently extended with the following plugins.
+Instructions on how to use them in your own application are linked below.
+
+| Plugin | README |
+| ------ | ------ |
+| nativewind | [https://www.nativewind.dev/] is uses Tailwind CSS as scripting language to create a universal styling system |
+| Ionicons | [https://iconduck.com/sets/ionicons] Icon of apps |
+| Expo | [https://expo.dev/] Universal native apps with React that run on Android, iOS, and the web. Iterate with confidence. |
+| OneDrive | [plugins/onedrive/README.md] asdasd|
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 ## Get started
 
